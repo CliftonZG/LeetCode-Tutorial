@@ -109,8 +109,6 @@ class applyOperations(object):
         """
         Similar to the previous solution, but just subtract the current size from the original size instead, of tracking
         the amount of zeros.
-
-        According to leetcode, this is worse in both time complexity and memory space than the previous solution.
         """
         original = len(nums)
         size = original
